@@ -1,0 +1,235 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(226, 212, 194) !important;
+    margin: 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    max-width: 1400px;
+    margin: 3rem 0;
+    padding: 0 1rem;
+}
+
+/* TOP SECTION*/
+.top{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding-bottom: 20px;
+        margin-left: auto;
+    margin-right: auto;
+     max-width: 1100px;
+}
+
+/* Cards */
+.veh, .pro, .ama, .entre{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+/* Text blocks */
+.vh, .pr, .ma, .ent{
+    padding-right: 40px;
+}
+
+/* Numbers */
+.veh_num, .pro_num, .entre_num{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.ama_num{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Icon containers */
+.veh_img,
+.pro_img,
+.ama_img,
+.entre_img{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.veh_img{ background-color: rgb(174, 174, 218); }
+.pro_img{ background-color: rgb(202, 243, 202); }
+.ama_img{ background-color: rgb(248, 185, 185); }
+.entre_img{ background-color: rgb(226, 189, 195); }
+
+/* Icons */
+.v, .p, .am, .en{
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* =========================
+   DOWN 1 SECTION
+========================= */
+.vc{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6rem;
+    padding-bottom: 20px;
+        margin-left: auto;
+    margin-right: auto;
+     max-width: 1100px;
+}
+
+/* Shared box style */
+.risique, .recent{
+    background-color: whitesmoke;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.risique{ border-top: 5px solid rgb(248, 79, 107); }
+.recent{ border-top: 5px solid rgb(248, 190, 82); }
+
+/* Headers */
+.risk_veh, .recent_cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2{
+    font-size: medium;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+/* Tables titles */
+.rv_title, .rc_title{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    font-size: small;
+    padding-bottom: 10px;
+    background-color: rgb(250, 238, 216);
+}
+
+/* Table rows */
+.dwn1, .dwn2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    border-top: 2px solid gainsboro;
+}
+
+.one{
+    text-align: center;
+    color: orangered;
+    
+}
+
+.two{
+    text-align: center;
+    color: red;
+}
+.action{
+    background-color: rgb(226, 189, 195);
+    color: rgb(248, 79, 107);
+    padding: 3px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.mtn, .mtn1{
+    text-align: right;
+}
+
+/* =========================
+   DOWN 2 SECTION
+========================= */
+.last{
+    background-color: whitesmoke;
+    padding: 1rem;
+    border-radius: 10px;
+    border-top: 5px solid rgb(131, 189, 131);
+    margin: 10px;
+        margin-left: auto;
+    margin-right: auto;
+     max-width: 1100px;
+}
+
+.last_ent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Cards grid */
+.dwn3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+/* Book cards */
+.book{
+    background-color: rgb(238, 229, 220);
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.book_plate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+span{
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.desc{
+    padding-bottom: 10px;
+}
+
+.book_g_c{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    border-top: 2px solid white;
+}
+
+.book_img_g{
+    display: flex;
+    gap: 3px;
+}
+
+.big{
+    width: 20px;
+    height: 20px;
+}
+
