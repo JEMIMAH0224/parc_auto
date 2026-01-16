@@ -104,7 +104,7 @@ require "database.php";
                                 <div class="dwn2">
                                     <div><?php echo htmlspecialchars($recentContravation['date']) ?></div>
                                     <div><?php echo htmlspecialchars($recentContravation['immatriculation']) ?></div>
-                                    <div><?php echo htmlspecialchars($recentContravation['conducteur']) ?></div>
+                                    <div class="con"><?php echo htmlspecialchars($recentContravation['conducteur']) ?></div>
                                     <div class="mtn1"><?php echo htmlspecialchars($recentContravation['montant']) ?></div>
                                 </div>
                             <?php endforeach; ?>
